@@ -1,5 +1,9 @@
 package sep14;
 
 public class TestGit {
-  System.out.print("Hello from git");
+  public static void main(String[] args) {
+
+
+    System.out.print("Hello from git");
+  }
 }
