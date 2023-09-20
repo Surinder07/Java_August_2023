@@ -3,7 +3,12 @@ package sep16;
 public class Test {
     public static void main(String[] args) {
 
+
         /*
+
+        //  make a cal
+
+
            Grade --->
            marks --> 0-40 --> fail
            marks 40-60 ---> B grade
@@ -22,10 +27,10 @@ public class Test {
 
             System.out.println("X is smaller");
         }
-        else if(x > 10){
+        else if(x > 10 && x <20){
             System.out.println("X is equal to 10 ");
         }
-        else if(x >= 10){
+        else if(x >=20 && x < 30){
             System.out.println("X is equal to 10 ");
         }
         else if(x <= 10){
