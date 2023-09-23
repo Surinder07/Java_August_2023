@@ -23,8 +23,8 @@ public class Calculator {
 2. do -while
 3. use methods where you see code needs to repeated..
 4. if you have to use multiple values ,
-sum of 2 nos. and sum of 3 nos.
-use overloaded methods
+   sum of 2 nos. and sum of 3 nos.
+   use overloaded methods
 
 create Main method ---in separate class and create object of the
 Calculator class inside the main method.
@@ -36,7 +36,7 @@ Calculator class inside the main method.
 
 
 
- */
+*/
 /*
 
 Welcome to my calcuator
@@ -48,23 +48,21 @@ Welcome to SUM :
 
 Do you want to add 2 numbers or 3 numbers
 
-  [2 ]
-    logic for sum of two nos
-    sum(num1, numn2)
-  [3]
-    logic for sum of 3 numbers
-    sum(num1, num, num3)
+[2 ]
+logic for sum of two nos
+sum(num1, numn2)
+[3]
+logic for sum of 3 numbers   
+sum(num1, num, num3)
 
-   SUm is : 25
+SUm is : 25
 
-   Do you want to continue with adding more numbers : Y
+Do you want to continue with adding more numbers : Y
 
-   N --->
-    Go back to main menu ?
+N --->
+Go back to main menu ?
 
-   Main menu
-
-
+Main menu
 
 
 
@@ -75,4 +73,6 @@ Do you want to add 2 numbers or 3 numbers
 
 
 
- */
+
+
+*/
