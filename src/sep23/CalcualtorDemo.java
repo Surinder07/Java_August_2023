@@ -8,8 +8,6 @@ public class CalcualtorDemo {
         char choice;
 
         do {
-
-
             System.out.println("Welcome to Xyz Comms");
             System.out.println("1. Press 1 for English");
             System.out.println("2. Press 2 for French");
@@ -19,22 +17,30 @@ public class CalcualtorDemo {
             System.out.print("Enter your option : ");
             int input = scanner.nextInt();
 
+            //logic -- check whether is valid or not
+
             switch (input) {
 
                 case 1:
-                    System.out.println("English");
+                     sumPragra(10, 20);
                     break;
                 case 2:
-                    System.out.println("French");
+                    sumPragra(10, 20);
                     break;
                 case 3:
-                    System.out.println("Spanish");
+                    sumPragra(10, 20);
                     break;
                 default:
                     System.out.println("wrong input ");
             }
-            System.out.println(" Do you want to continue ? Prees Y or N");
+            System.out.println(" Do you want to continue ? Press Y or N");
             choice = scanner.next().charAt(0);
         }while (choice != 'N');
+    }
+
+
+    public static int sumPragra(int num1, int num2){ // 10 and 20
+        int sum =  num1 + num2; // 30
+        return sum; // 30
     }
 }
