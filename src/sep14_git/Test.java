@@ -1,4 +1,4 @@
-package sep14;
+package sep14_git;
 
 public class Test {
 }
