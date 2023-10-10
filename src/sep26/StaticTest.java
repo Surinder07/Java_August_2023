@@ -1,22 +1,18 @@
 package sep26;
 
 public class StaticTest {
-    static int count = 0;
+     static int count = 0; // shareable resource among the objects
+    // 1
 
-    StaticTest(){
-        count ++;
-        System.out.println(count);
+    // shareable resource
+    StaticTest(){ // consider this as a special method
+        count++;
+        System.out.println(count); // 2
     }
 
     public static void main(String[] args) {
-        StaticTest s1 = new StaticTest();
-        StaticTest s2 = new StaticTest();
-        StaticTest s3 = new StaticTest();
-        StaticTest s4 = new StaticTest();
-        StaticTest s5 = new StaticTest();
-
-
-
+        StaticTest s1 = new StaticTest(); // 1
+        StaticTest s2 = new StaticTest(); // 2
     }
 
 }
