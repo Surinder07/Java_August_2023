@@ -18,10 +18,7 @@ public class Vehicle {
         System.out.println("Model  : " + model);
         System.out.println("fuel Cap  : " + fuelCap);
         System.out.println("year : " + year);
-
     }
-
-
-
-
 }
+
+//

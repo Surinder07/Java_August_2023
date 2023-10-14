@@ -5,8 +5,6 @@ public class MainT {
 //String color, String model, int fuelCap, int year, int numOfSeats
         Car car = new Car("White", "Tesla X", 50, 2023, 5);
         car.carDetails();
-
-
     }
 }
 

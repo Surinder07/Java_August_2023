@@ -7,7 +7,7 @@ public class Vehicle { // parent
     }
 }
 class Car extends Vehicle{  // child
-    int fuelCap = 50;
+    int fuelCap = 500;
 
     public void display(){
         super.display();  //
