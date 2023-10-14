@@ -4,6 +4,11 @@ public class SciFiBooks extends Book{
 
     private String genre;
 
+    @Override
+    public void showDetails() {
+        System.out.println("Genre " + genre);
+    }
+
     public SciFiBooks(String title, String author, int numOfPages, String genre) {
         super(title, author, numOfPages);
         this.genre = genre;

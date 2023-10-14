@@ -12,13 +12,18 @@ public class Book {
     }
 
 
+    public void showDetails(){
+        System.out.println("Title " + title);
+        System.out.println("Author " + author);
+        System.out.println("Num of pages " + numOfPages);
+    }
 
     @Override
     public String toString() {
         return "Book{" +
-                "title='" + title + '\'' +
-                ", author='" + author + '\'' +
-                ", numOfPages=" + numOfPages +
+                "title:'" + title + '\'' +
+                ", author:'" + author + '\'' +
+                ", numOfPages:" + numOfPages +
                 '}';
     }
 }
