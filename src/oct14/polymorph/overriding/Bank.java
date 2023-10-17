@@ -1,8 +1,8 @@
 package oct14.polymorph.overriding;
 
-public class Shape {
+public class Bank {
 
-    public double getArea(){
+    public double getRate(){
         return 0.0;
     }
 }

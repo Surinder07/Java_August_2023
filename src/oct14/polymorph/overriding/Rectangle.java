@@ -1,6 +1,8 @@
-package oct14.polymorph;
+package oct14.polymorph.overriding;
 
-public class Rectangle extends Shape{
+import oct14.polymorph.overriding.Shape;
+
+public class Rectangle extends Shape {
 
     private double length;
     private double width;
