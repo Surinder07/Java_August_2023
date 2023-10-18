@@ -8,6 +8,10 @@ public class Test {
 
 10 mins ---
 
+Shape ---
+Mobile phone ---
+Computer
+
 abstraction
 1. abstract classes  -- not 100 % abstract
 2. Interfaces

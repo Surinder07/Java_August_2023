@@ -22,5 +22,18 @@ asbtract class - any class which is declared with abstract keyword
 --> You can not create object of abstract class
 ---> it can have both abstract or non abstract methods
 
-interfaces
+
+Media player example for abstract class
+
+    MediaPlayer   ---> size, capacity
+    play(), pause(), stop(), next(), rewind()
+
+    1. Audio media player ----> windows media player
+    2. Video Media player -----> playVideo()
+
+    1. Spotify ,   youtube music, VLC media player
+    2.  Youtube,  Netflix
+
+
+
  */
