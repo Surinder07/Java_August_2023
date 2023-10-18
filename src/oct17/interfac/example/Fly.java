@@ -1,10 +1,16 @@
 package oct17.interfac.example;
 
+import java.io.Serializable;
+
 public interface Fly {
 
     public static final String name = "Test";
 
-    void flying();
+    abstract void flying();
     void eat();
-    void test();
+
+
+
+
+    // interview --- marker interface
 }

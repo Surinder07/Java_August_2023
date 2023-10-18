@@ -6,6 +6,7 @@ public class Parrot extends Bird implements Fly{
     public void flying() {
         System.out.println(" Parrot is flying... ");
     }
+
 }
 
         /*
