@@ -1,4 +1,4 @@
-package oct24;
+package oct24.exceptions.examples;
 
 public class TestFinally extends Exception{
     public static void main(String[] args) {

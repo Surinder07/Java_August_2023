@@ -1,4 +1,4 @@
-package oct24.bank;
+package oct24.exceptions.bankExample;
 
 public class Bank {
     double balance;

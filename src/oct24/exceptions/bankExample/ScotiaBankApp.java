@@ -1,6 +1,7 @@
-package oct24.bank;
+package oct24.exceptions.bankExample;
 
-import java.time.chrono.IsoChronology;
+import oct24.exceptions.bankExample.Bank;
+import oct24.exceptions.bankExample.InsufficientBalanceException;
 
 public class ScotiaBankApp {
     public static void main(String[] args) {

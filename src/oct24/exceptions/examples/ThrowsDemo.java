@@ -1,4 +1,4 @@
-package oct24;
+package oct24.exceptions.examples;
 
 public class ThrowsDemo {
     public static void main(String[] args) {
